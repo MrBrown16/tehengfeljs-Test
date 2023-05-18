@@ -1,9 +1,12 @@
 {
   "scripts": {
-    "start": "lite-server"
+    "start": "lite-server",
+    "test": "jasmine-browser-runner serve" 
   },
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "jasmine-browser-runner": "^2.0.0",
+    "jasmine-core": "^5.0.0"
   },
   "dependencies": {
     "bootstrap": "^5.2.3"
